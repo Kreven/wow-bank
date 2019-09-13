@@ -1,0 +1,141 @@
+@import url(//db.onlinewebfonts.com/c/768839d9b3e6c0a342a6ca5f7cab3e37?family=Friz+Quadrata);
+@font-face {
+  font-family: "Friz Quadrata";
+  src: url("//db.onlinewebfonts.com/t/c8e8fcd5d85d9b587022fe0a79809b73.eot");
+  src: url("//db.onlinewebfonts.com/t/c8e8fcd5d85d9b587022fe0a79809b73.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/c8e8fcd5d85d9b587022fe0a79809b73.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/c8e8fcd5d85d9b587022fe0a79809b73.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/c8e8fcd5d85d9b587022fe0a79809b73.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/c8e8fcd5d85d9b587022fe0a79809b73.svg#Friz Quadrata")
+      format("svg");
+}
+
+body {
+  background: url(https://d3pbwrbephk9ur.cloudfront.net/plugins/discourse-blizzard-themes/images/backgrounds/wow/top.jpg)
+      center -200px no-repeat,
+    url(https://d3pbwrbephk9ur.cloudfront.net/plugins/discourse-blizzard-themes/images/backgrounds/wow/repeat.jpg)
+      center -200px repeat-y;
+  background-color: #231a13;
+  color: #fff;
+}
+
+body:before {
+  content: "";
+  background: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/F7AM75SWM6TK1555957771468.png),
+    url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/XM7L8D479GKQ1555957771472.png);
+}
+
+.App {
+  font-family: "Friz Quadrata", "Open Sans", Arial, "Helvetica Neue", Helvetica,
+    sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+.coin {
+  vertical-align: middle;
+  margin: 0 5px 0 1px;
+}
+
+.item {
+  display: block;
+  width: 56px;
+  height: 56px;
+  position: relative;
+  margin: 5px;
+}
+
+.item:before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 68px;
+  height: 68px;
+  background: url(https://wow.zamimg.com/images/Icon/large/border/default.png);
+}
+
+.item:after {
+  opacity: 0;
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: 62px;
+  height: 62px;
+  background: url(https://wow.zamimg.com/images/Icon/large/hilite/default.png);
+}
+
+.item:hover:after {
+  opacity: 1;
+}
+
+.item img {
+  display: block;
+}
+
+.item i {
+  font-style: normal;
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  text-shadow: 1px 1px 5px #000, 1px 1px 5px #000, 1px 1px 5px #000,
+    1px 1px 5px #000;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.bag {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.spinner {
+  opacity: 0.25;
+}
+
+.char {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.char > div {
+  margin: 0 30px 50px;
+  flex-wrap: wrap;
+  align-content: center;
+  max-width: 530px;
+  min-width: 300px;
+  flex-basis: auto;
+  flex-grow: 1;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  width: calc(401px / 2);
+  height: calc(83px / 2);
+  background: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/UYDYP3IQMGX81555957771448.png);
+  background-size: 100%;
+  color: #fff;
+  border: none;
+  letter-spacing: 1px;
+  text-shadow: rgba(0, 0, 0, 0.7) 0px 1px 7px, rgba(0, 0, 0, 0.7) 0px 1px 7px;
+  outline: none;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/F7AM75SWM6TK1555957771468.png);
+}
+
+button:active {
+  background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/XM7L8D479GKQ1555957771472.png);
+}
