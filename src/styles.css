@@ -21,6 +21,7 @@ body {
       center -200px repeat-y;
   background-color: #231a13;
   color: #fff;
+  text-shadow: rgba(0, 0, 0, 0.7) 0px 1px 7px, rgba(0, 0, 0, 0.7) 0px 1px 7px;
 }
 
 body:before {
@@ -138,4 +139,18 @@ button:hover {
 
 button:active {
   background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/XM7L8D479GKQ1555957771472.png);
+}
+
+textarea {
+  background: #000;
+  box-shadow: rgb(0, 0, 0) 0px 0px 18px 6px inset, rgb(0, 0, 0) 0px 1px 18px 6px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000;
+  border-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/97YB2N31Y9DI1555957771922.png)
+    72 fill / 52px / 24px round;
+  color: #fff;
+  font-family: inherit;
+  outline: none;
+  padding: 15px;
 }
